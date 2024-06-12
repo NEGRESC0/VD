@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.dancing-script-<uniquifier> {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#nxt{
+    color: #fff0f3;
+    text-decoration: none;
+    font-family: Dancing Script;
+    font-size: 6em;
+    background-color: #ff4d6d;
+    border-radius: 20px 20px;
+    padding: 10px;
+}
+
+#ouca {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    transition: 300ms;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: #ff758f;
+    font-family: Montserrat ExtraBold;
+    color: #fff0f3;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #ff4d6d;
+    width: fit-content;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    border-radius: 20px;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+#back-hrt {
+    background-color: #f02d3a;
+}
+
+#back-4u {
+    background-color: #7b2cbf;
+}
+
+#back-thgt {
+    background-color: #00a8e8;
+}
+
+
+h2 {
+    font-size: 1.6em;
+    padding: 0;
+    margin-bottom: 0;
+    margin-right: 1em;
+}
+
+#feliz {
+    font-size: 2.5em;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff4d6d;
+    width: 100%;    
+}
+
+#top-bar-hrt {
+    background-color: #85182a;
+}
+
+#top-bar-4u {
+    background-color: #5a189a;
+}
+
+#top-bar-thgt {
+    background-color: #001845;
+}
+
+#items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3em;
+    height: 40em;
+}
+
+ #heart-lock {
+    width: 20em;
+    transition: 300ms;
+        &:hover {
+            cursor: url("./chave-do-amor.png"), auto;
+            width: 23em;
+        }
+}
+        
+#balao-pensamento {
+    width: 20em;
+    transition: 300ms;
+        &:hover {
+            cursor: url("./sinal-de-interrogacao.png"), auto;
+            width: 23em;
+        }
+}
+                    
+#vc {
+    width: 20em;
+    transition: 300ms;
+        &:hover {
+            cursor: url("./eu.png"), auto;
+            width: 23em;
+        }
+}
+
+#return {
+    height: 5em;
+}
+
+#carta {
+    display: flex;
+    margin: auto;
+    width: 80em;
+}
+
+#letter1 {
+    font-size: 2.5em;
+    width: fit-content;
+    text-align: justify;
+}
+
+#coracoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hrt {
+    height: 20em;
+    margin: 4em;
+}
+
+#ily {
+    font-family: Dancing Script;
+    font-size: 10em;
+}
+
+#ily-cor {
+    font-size: 5em;
+}
+
+#amo-dms {
+    background-color: #ff4d6d;
+    border-radius: 15px 15px;
+    margin-right: 1em;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 0.7em;
+}
+
+#voce {
+    font-family: Dancing Script;
+    font-size: 13em;
+}
+
+#hrt-lck {
+    background-color: #b21e35;
+    color: #fff0f3;
+}
+
+#fu {
+    background-color: #9d4edd;
+    color: #fbfaff;
+}
+
+#thgt {
+    background-color: #0466c8;
+    color: #edf2fb;
+}
+
+
+#game {
+    font-size: 1.6em;
+    text-decoration: none;
+    font-family: Montserrat ExtraBold;
+    color: #fff0f3;
+    background-color: #ff4d6d;
+    height: 1.8em;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    border-radius: 15px 15px;
+    padding-top: 10px;
+        &:hover {
+            cursor: url("./ily+.png"), auto;
+        }
+}
+
+
+
+/*game*/
+
+#game-pg {
+    background-color: #cb5df1;
+}
+
+#top-bar-game {
+    background-color: #3c0663;
+}
+
+.btn {
+    font-family: Montserrat ExtraBold;
+    font-size: 3em;
+    background-color: #7b2cbf;
+    color: #edf2fb;
+    border: #edf2fb 2px solid;
+    border-radius: 15px;
+        &:hover {
+            cursor: pointer;
+        }
+}
+
+#yes {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+#no {
+    transition: 100ms;
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+
+#euteamo {
+    font-family: Dancing Script;
+    font-size: 7em;
+}
+
+.hearts {
+    width: 25em;
+    margin: 2em;
+}
+
+#hrt1 {
+    rotate: -10deg;
+}
+#hrt2 {
+    rotate: -40deg;
+}
+#hrt3 {
+    rotate: 40deg;
+}
+#hrt4 {
+    rotate: -50deg;
+}
+#hrt5 {
+    rotate: 37deg;
+}
+#hrt6 {
+    rotate: 30deg;
+}
+#hrt7 {
+    rotate: 20deg;
+}
+#hrt8 {
+    rotate: -30deg;
+}
